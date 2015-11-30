@@ -1,0 +1,62 @@
+Sky Rambler 
+!Mach
+0.0    
+!IYsym   IZsym   Zsym
+1        0       0.0
+!Sref    Cref    Bref
+3.0  	 1       3
+!Xref    Yref    Zref
+0.025    0.0     0.0
+!CDp
+0.0
+
+SURFACE 
+WING
+!Nchordwise  Space [ Nspan Sspace ]
+12           1.0     24    -2.0
+INDEX
+1
+SECTION
+!Xle    Yle    Zle     Chord   Ainc  Nspanwise  Space
+0.000   0.000  0.000   1.0   	15.
+NACA
+9312
+SECTION
+!Xle    Yle    Zle     Chord   Ainc  Nspanwise  Space
+0.000   1.5  0.000  	1.0 	15.
+NACA
+9312
+
+SURFACE 
+WINGLET
+!Nchordwise  Space
+12            1.0  12  1.0
+INDEX 
+1
+SECTION
+!Xle    Yle    Zle     Chord   Ainc  Nspanwise  Space
+0.000   1.500  0.000   1.0   	10.
+NACA
+9312
+SECTION
+!Xle    Yle    Zle     Chord   Ainc  Nspanwise  Space
+0.025   1.500  0.5     .50     10.
+NACA
+9312
+
+SURFACE 
+WINGLET
+!Nchordwise  Space
+12            1.0  12  1.0
+INDEX 
+1
+SECTION
+!Xle    Yle    Zle     Chord   Ainc  Nspanwise  Space
+0.000   1.500  0.000   1.0   	10.
+NACA
+9312
+SECTION
+!Xle    Yle    Zle     Chord   Ainc  Nspanwise  Space
+0.025   1.500  -0.5     .50     10.
+NACA
+9312
